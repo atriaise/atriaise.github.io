@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#E0E0E0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #00C853;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    min-height: 70px;
+    border-bottom: #388E3C 4px solid;
+}
+
+.button {
+    background-color: #76FF03;
+    border: 0;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 5px;
+    cursor: pointer;
+    border-bottom: #64DD17 4px solid;
+}
+
+.button:hover {
+    background-color: #B2FF59;
+}
+
+header a {
+    float: right;
+    margin-top: 10px;
+}
+
+header #branding {
+    float: left;
+}
+
+header branding h1 {
+    margin: 0;
+}
+
+#showcase {
+    min-height: 200px;
+    background-color: #424242;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#showcase h1 {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+#showcase p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#domains {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-bottom: #9E9E9E 4px solid;
+}
+
+#domains .community {
+    text-align: center;
+}
+
+#domains .community h2 {
+    margin-top: 20px;
+}
+
+#domains .community p {
+    padding-top: 0;
+    margin-bottom: 40px;
+}
+
+#ques {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-bottom: #9E9E9E 4px solid;
+}
+
+#ques h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#ques ul li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background: #00C853;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 768px){
+    header #branding{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header #branding h1 {
+        margin: 0;
+    }
+    
+    header a, footer a{
+        float:none;
+    }
+    
+    .button {
+        float:none;
+        display: block;
+        padding: 8px;
+    }
+    
+    #showcase h1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    #showcase p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    #domains {
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    #ques {
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    #ques h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #ques ul li {
+        font-size: 14px;
+        margin-top: 0;
+        padding-bottom: 5px;
+    }
+    
+    footer p{
+        font-size: 12px;
+    }
+}

@@ -36,6 +36,21 @@ header {
     border-bottom: #64DD17 4px solid;
 }
 
+.buttonx {
+	background-color: #78909C;
+    border: 0;
+    color: #37474F;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 5px;
+    cursor: default;
+    border-bottom: #78909C 4px solid;
+    pointer-events: none;
+}
+
 .button:hover {
     background-color: #B2FF59;
 }
@@ -136,6 +151,12 @@ footer {
     }
     
     .button {
+        float:none;
+        display: block;
+        padding: 8px;
+    }
+    
+    .buttonx {
         float:none;
         display: block;
         padding: 8px;
